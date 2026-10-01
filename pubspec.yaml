@@ -1,0 +1,21 @@
+name: task_tracker_app
+description: A Firebase Task Tracker application for the final lab exam.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^6.9.0
+  firebase_core: ^4.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
